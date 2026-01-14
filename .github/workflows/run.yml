@@ -8,6 +8,8 @@ on:
   workflow_dispatch:
   schedule:
     - cron: 45 21 * * *
+    - cron: 45 3 * * *
+    - cron: 45 10 * * *
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
