@@ -9,7 +9,6 @@ on:
   schedule:
     - cron: 0 3 * * *
     - cron: 0 11 * * *
-    - cron: 0 19 * * *
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
